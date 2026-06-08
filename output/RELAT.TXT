@@ -1,0 +1,37 @@
+CLIENTE: 00123                                   
+TOTAL CREDITOS: 000001200                        
+TOTAL DEBITOS: 000000200                         
+                                                 
+CLIENTE: 00234                                   
+TOTAL CREDITOS: 000003000                        
+TOTAL DEBITOS: 000000500                         
+                                                 
+CLIENTE: 00345                                   
+TOTAL CREDITOS: 000000000                        
+TOTAL DEBITOS: 000000500                         
+                                                 
+CLIENTE: 00456                                   
+TOTAL CREDITOS: 000000000                        
+TOTAL DEBITOS: 000000000                         
+                                                 
+CLIENTE: 00567                                   
+TOTAL CREDITOS: 000000000                        
+TOTAL DEBITOS: 000000000                         
+                                                 
+CLIENTE: 00678                                   
+TOTAL CREDITOS: 000000000                        
+TOTAL DEBITOS: 000000000                         
+
+CLIENTE: 00789                                                                  
+TOTAL CREDITOS: 000000000                                                       
+TOTAL DEBITOS: 000000300                                                        
+                                                                                
+********************************************************************************
+ESTATISTICAS DE PROCESSAMENTO                                                   
+********************************************************************************
+CLIENTES PROCESSADOS.....000007                                                 
+TRANSACOES PROCESSADAS...000008                                                 
+CREDITOS PROCESSADOS.....000004                                                 
+DEBITOS PROCESSADOS......000004                                                 
+ERROS ENCONTRADOS........000004                                                 
+FIM DO PROCESSAMENTO           
