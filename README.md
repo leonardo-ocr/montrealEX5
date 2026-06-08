@@ -35,7 +35,7 @@ Contém os dados dos clientes com ID, nome e saldo inicial.
    05 CLI-SALDO PIC 9(09).
 ```
 
-![Arquivo CLIENTES.TXT no TSO](clientes_txt.png)
+![Arquivo CLIENTES.TXT no TSO](assets/clientes.txt.png)
 
 ---
 
@@ -51,7 +51,7 @@ Contém as transações de débito (D) e crédito (C) referenciadas por ID de cl
    05 TRX-VALOR PIC 9(09).
 ```
 
-![Arquivo TRANSACOES.TXT no TSO](transacoes_txt.png)
+![Arquivo TRANSACOES.TXT no TSO](assets/transacoes.txt.png)
 
 ---
 
@@ -78,7 +78,7 @@ O programa valida as transações e registra inconsistências em `ERROS.TXT`:
 | 3 | Valor da transação zerado | `ERRO: VALOR DE TRANSACAO INVALIDO - ID XXXXX` |
 | 4 | Saldo insuficiente para débito | `ERRO: SALDO INSUFICIENTE - ID XXXXX` |
 
-![Arquivo ERROS.TXT gerado](erros.png)
+![Arquivo ERROS.TXT gerado](assets/erros.png)
 
 ---
 
@@ -87,16 +87,16 @@ O programa valida as transações e registra inconsistências em `ERROS.TXT`:
 ### CLIENTES_ATUALIZ.TXT
 Arquivo com o mesmo layout do arquivo de clientes, porém com os saldos atualizados após o processamento das transações.
 
-![Arquivo CLIENTES_ATUALIZ.TXT](clientes_atualiz.png)
+![Arquivo CLIENTES_ATUALIZ.TXT](assets/clientes.atualiz.png)
 
 ---
 
 ### RELAT.TXT — Relatório de Processamento
 Exibe os totais de créditos e débitos por cliente, seguido das estatísticas gerais de execução.
 
-![Relatório — parte 1 (clientes 00123 a 00678)](relat1.png)
+![Relatório — parte 1 (clientes 00123 a 00678)](assets/relat1.png)
 
-![Relatório — parte 2 (cliente 00789 + estatísticas)](relat2.png)
+![Relatório — parte 2 (cliente 00789 + estatísticas)](assets/relat2.png)
 
 ---
 
@@ -113,7 +113,7 @@ O JCL `PRJ5COB.JCL` executa os seguintes steps:
 | EXECPGM | BANKUPDT | Execução do programa principal | 0000 |
 
 
-![SPOOL — JES2 Job Log](spool.png)
+![SPOOL — JES2 Job Log](assets/spool.png)
 
 ---
 
